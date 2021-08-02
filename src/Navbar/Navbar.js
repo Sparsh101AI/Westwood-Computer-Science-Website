@@ -13,9 +13,9 @@ function bar() {
         <img
           alt=""
           src="/logo512.png"
-          width="50"
-          height="50"
-          className="d-inline-block align-top"
+          width="45.6"
+          height="45.6"
+         
         />{' '}
      Westwood
       </Navbar.Brand>
