@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Home/Home';
 import Navbar from './Navbar/Navbar';
 import Awards from './Awards/Awards';
-
+import Footer from './Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -22,6 +22,9 @@ function App() {
 
 
     </Router>
+
+
+<Footer/>
     </div>
   );
 }

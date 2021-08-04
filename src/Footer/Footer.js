@@ -1,13 +1,13 @@
-import './Navbar';
+import './Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 
 
-function bar() {
+function foot() {
     return (
-      <div className="bar">
-  <Navbar bg="dark" variant="dark">
+      <div className="foot">
+  <Navbar fixed="bottom" bg="dark" variant="dark">
 
       <Navbar.Brand href="#home">
         <img
@@ -17,7 +17,7 @@ function bar() {
           height="70"
          
         />{' '}
-     Header
+    Footer
       </Navbar.Brand>
   
     
@@ -27,4 +27,4 @@ function bar() {
     );
   }
   
-  export default bar;
+  export default foot;
