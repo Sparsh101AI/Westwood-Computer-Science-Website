@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container'
 function bar() {
     return (
       <div className="bar">
-  <Navbar className="nav-color" variant="dark">
+  <Navbar className="nav-color" >
 
       <Navbar.Brand href="#home">
         <img
