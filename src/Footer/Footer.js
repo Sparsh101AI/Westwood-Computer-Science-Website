@@ -6,7 +6,8 @@ import Row from 'react-bootstrap/Row'
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import CardGroup from 'react-bootstrap/CardGroup'
-
+import SocialFollow from "./SocialFollow";
+import "./styles.css";
 
 function Home(){
 
@@ -54,7 +55,7 @@ Phone: 780-791-1986
   </Card>
 
 
-  <Card className="card2">
+  <Card className="cardmid">
     
     <Card.Body>
       <Card.Text>
@@ -76,8 +77,10 @@ Phone: 780-791-1986
     <Card.Body>
       <Card.Text>
        
-        additional content. This card has even longer content than the first to
-        show that equal height action.
+      Westwood Innovation Socials: Follow and stay updated!
+
+
+        <SocialFollow />
       </Card.Text>
     </Card.Body>
   

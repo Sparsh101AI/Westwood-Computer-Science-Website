@@ -1,0 +1,32 @@
+
+
+/* SOCIAL STUFF */
+.social-container {
+  background: #27206B;
+  padding: 15px 5px;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-5px);
+}
+
+a.youtube {
+  color: #ffffff;
+}
+
+a.facebook {
+  color: #ffffff;
+}
+
+a.twitter {
+  color: #ffffff;
+}
+
+a.instagram {
+  color: rgb(255, 255, 255);
+}
