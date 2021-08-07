@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row'
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import CardGroup from 'react-bootstrap/CardGroup'
-import SocialFollow from "./SocialFollow";
+import SocialFollow from "../SocialFollow";
 import "./styles.css";
 
 function Home(){
@@ -17,15 +17,17 @@ function Home(){
 
 
 <Container fluid>
-<Navbar className="footer-color" fixed="bottom"  variant="dark">
+<Navbar className="footer-color" sticky="bottom"  variant="dark">
  
   <Row>
 
 
   <CardGroup>
  
- 
-  <Card className="card1">
+
+
+
+  <Card className="card1" >
     
     <Card.Body>
       <Card.Text>
@@ -42,49 +44,9 @@ Phone: 780-791-1986
   
   </Card>
 
-  <Card className="card2">
-    
-    <Card.Body>
-      <Card.Text>
-        <br/>
-        <br/>
-      ©tabs add more later
-      </Card.Text>
-    </Card.Body>
-  
-  </Card>
 
-
-  <Card className="cardmid">
-    
-    <Card.Body>
-      <Card.Text>
-        <br/>
-        <br/>
-      ©Westwood Computer Science
-      </Card.Text>
-    </Card.Body>
-  
-  </Card>
  
- 
-  <Card>
-    <Card.Img variant="top" src="wwlogo.png"  height="150"/>
-  </Card>
-
-  <Card className="card3">
-    
-    <Card.Body>
-      <Card.Text>
-       
-      Westwood Innovation Socials: Follow and stay updated!
-
-
-        <SocialFollow />
-      </Card.Text>
-    </Card.Body>
   
-  </Card>
 </CardGroup>
 
     

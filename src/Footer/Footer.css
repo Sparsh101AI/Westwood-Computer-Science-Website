@@ -7,13 +7,14 @@
     color: floralwhite;
     border-color: #27206B;
     text-align: left;
+ 
     
 }
 
 .card2{
     background-color: #27206B;
-    color: #27206B;
-    border-color: #27206B;
+    color: floralwhite;
+    border-color: #000000;
     text-align: center;
     
 }
@@ -22,7 +23,7 @@
 .cardmid{
     background-color: #27206B;
     color: floralwhite;
-    border-color: #27206B;
+    border-color: #000000;
     text-align: center;
     
 }
@@ -31,7 +32,7 @@
 .card3{
     background-color: #27206B;
     color: floralwhite;
-    border-color: #27206B;
+    border-color: #000000;
     text-align: left;
     
 }
