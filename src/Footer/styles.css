@@ -2,9 +2,9 @@
 
 /* SOCIAL STUFF */
 .social-container {
-  right: 100%;
-  background: #27206B;
-  padding: 25px 17px;
+justify-items: center;
+  
+  padding: 15px 5px;
 }
 a.social {
   margin: 0 1rem;

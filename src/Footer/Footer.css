@@ -1,42 +1,11 @@
-.footer-color{
+.text-center{
     background-color: #27206B;
+   color: aliceblue;
+   text-align: center;
 }
 
-.card1{
+.footercard{
     background-color: #27206B;
-    color: floralwhite;
-    border-color: #27206B;
-    text-align: left;
- 
-    
+   color: aliceblue;
+   text-align: center; 
 }
-
-.card2{
-    background-color: #27206B;
-    color: floralwhite;
-    border-color: #000000;
-    text-align: center;
-    
-}
-
-
-.cardmid{
-    background-color: #27206B;
-    color: floralwhite;
-    border-color: #000000;
-    text-align: center;
-    
-}
-
-
-.card3{
-    background-color: #27206B;
-    color: floralwhite;
-    border-color: #000000;
-    text-align: left;
-    
-}
-
-
-
-
