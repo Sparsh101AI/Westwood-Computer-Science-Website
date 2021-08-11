@@ -74,11 +74,7 @@ const FooterPagePro = () => {
           </MDBCol>
          
           <MDBCol md="4">
-          
-          <Card >
-  <Card.Img  src="wwlogo.png" />
-  
-</Card>
+        
            
             
            <SocialFollow/>
