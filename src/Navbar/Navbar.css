@@ -1,3 +1,16 @@
 .nav-color{
     background-color: #27206B;
 }
+.nav-colortop{
+    background-color: white;
+}
+
+
+
+.button-color{
+    background-color: #27206B;
+   border: none;
+   padding: 15px;
+   align-items: center;
+   justify-content: center;
+}
