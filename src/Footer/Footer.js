@@ -79,7 +79,9 @@ const FooterPagePro = () => {
             
            <SocialFollow/>
            <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "200px" }} />
-
+ <div>
+ &copy; {new Date().getFullYear()} Copyright: <a> Westwood Innovation Center</a>
+ </div>
          
           </MDBCol>
           
@@ -92,7 +94,7 @@ const FooterPagePro = () => {
           <div className="text-center">
         
       </div>
-          &copy; {new Date().getFullYear()} Copyright: <a> Westwood Innovation Center</a>
+         
         </MDBContainer>
       </div>
 
