@@ -33,24 +33,14 @@ function bar() {
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
      
-    <Button className="button-color" href="#">Features</Button> 
-    <Button className="button-color" href="#">Features</Button> 
-    
-    <Dropdown >
-    <Dropdown.Toggle className="button-color" >
-      Awards
-    </Dropdown.Toggle>
-    <Dropdown.Menu >
-      <Dropdown.Item href="#/action-1" active>
-        Action
-      </Dropdown.Item>
-      <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-      <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-      <Dropdown.Divider />
-      <Dropdown.Item href="#/action-4">Separated link</Dropdown.Item>
-    </Dropdown.Menu>
-  </Dropdown>
-      
+    <Button className="button-color" href="#">About</Button> 
+    <Button className="button-color" href="#">CS Junior High</Button> 
+    <Button className="button-color" href="#">CS Senior High</Button> 
+    <Button className="button-color" href="#">Robotics Program</Button> 
+    <Button className="button-color" href="#">Awards and Achievements
+</Button> 
+
+
     </Nav>
    
   </Navbar.Collapse>
