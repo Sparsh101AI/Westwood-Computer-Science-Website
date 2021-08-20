@@ -75,6 +75,8 @@ function bar() {
       1400,
       'Our Community',
       1400,
+      'Westwood!',
+      1400,
     ]
   }
 />
