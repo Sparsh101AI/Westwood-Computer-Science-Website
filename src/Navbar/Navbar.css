@@ -2,7 +2,8 @@
     background-color: #27206B;
 }
 .nav-colortop{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    
 }
 
 
@@ -10,7 +11,49 @@
 .button-color{
     background-color: #27206B;
    border: none;
-   padding: 20px;
+
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: medium;
    align-items: center;
    justify-content: center;
+   margin: 0 45px;
+}
+
+
+
+.auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headertext{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: #27206B;
+    text-align: right;
+}
+
+.navtex{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: left;
+    color: #27206B;
+    
+}
+
+.midbar{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: left;
+    background-color: #CFCFCF;
+    
 }
