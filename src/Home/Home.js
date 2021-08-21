@@ -1,5 +1,4 @@
 import './Home.css';
-import  video from './video'
 import Carousel from 'react-bootstrap/Carousel'
 import Row from 'react-bootstrap/Row'
 import Card from 'react-bootstrap/Card'
@@ -17,7 +16,7 @@ function Home() {
 
 <Container>
   <Row>
-    <Col sm={8}>
+    <Col >
       
     <Carousel className="cards3">
   <Carousel.Item>
@@ -69,7 +68,7 @@ function Home() {
 
 
 
-
+<br/>
 
 
 
@@ -82,32 +81,33 @@ function Home() {
         
 
 
-  <Col className="videopart" xl={5}>
-  <Card >
+  <Col  xl={6}>
+  <Card className="videopart" >
   <Card.Body>
-    <Card.Title>Meet Our Teachers</Card.Title>
+    <Card.Title className="videopart">Meet Our Teachers</Card.Title>
     <Card.Text>
     <CardGroup>
  
- <Card>
+ <Card className="teacherpart1and2">
    <Card.Img variant="top" src="saidheadimg.png" />
    <Card.Body>
-     <Card.Title>Card title</Card.Title>
+     <Card.Title>Said El Medjdani</Card.Title>
      <Card.Text>
-       This card has supporting text below as a natural lead-in to additional
-       content.{' '}
+     "As a life-long learner, I believe that students grow up with challenges, computational thinking,
+      problem solving and product-oriented learning. As a father of three, one of my greatest passions in life
+       is to see kids grow and learn."{' '}
      </Card.Text>
    </Card.Body>
    
  </Card>
- <Card>
+ <Card className="teacherpart1and2">
    <Card.Img variant="top" src="saidheadimg.png" />
    <Card.Body>
-     <Card.Title>Card title</Card.Title>
+     <Card.Title>Jeff Landry</Card.Title>
      <Card.Text>
-       This is a wider card with supporting text below as a natural lead-in to
+       "This is a wider card with supporting text below as a natural lead-in to
        additional content. This card has even longer content than the first to
-       show that equal height action.
+       show that equal height action."
      </Card.Text>
    </Card.Body>
   
@@ -120,49 +120,6 @@ function Home() {
   
 
   </Col>
-
-
-{/*This is westwood centre video */}
-
-  <Col className="videopart1" xl={5}>
-  <Card >
-  <Card.Body>
-    <Card.Title>Check Out Our New Innovation Center</Card.Title>
-    <Card.Text>
-    <CardGroup>
- 
- <Card>
-   <Card.Img variant="top" src="saidheadimg.png" />
-   <Card.Body>
-     <Card.Title>Card title</Card.Title>
-     <Card.Text>
-       This card has supporting text below as a natural lead-in to additional
-       content.{' '}
-     </Card.Text>
-   </Card.Body>
-   
- </Card>
- <Card>
-   <Card.Img variant="top" src="saidheadimg.png" />
-   <Card.Body>
-     <Card.Title>Card title</Card.Title>
-     <Card.Text>
-       This is a wider card with supporting text below as a natural lead-in to
-       additional content. This card has even longer content than the first to
-       show that equal height action.
-     </Card.Text>
-   </Card.Body>
-  
- </Card>
-</CardGroup>
-    </Card.Text>
-  </Card.Body>
-</Card>
-
-  
-
-  </Col>
-
 
 
 
@@ -183,10 +140,40 @@ function Home() {
 
 <br/>
 
+<Row>
+  {/*This is westwood centre video */}
+<Container>
+  <Col className="videopart1" >
+   
+  <Card className="videopart1" className="text-center">
+  <Card.Body>
+    <Card.Title className="textcenter">Check Out Our New Innovation Center!</Card.Title>
+    <Card.Text>
+    <CardGroup>
+ 
 
 
+<div className="App1">
+  <ReactPlayer url='https://www.youtube.com/watch?v=rn6GImDNNrk&feature=emb_title'/>
+</div>
+ 
+</CardGroup>
+    </Card.Text>
+  </Card.Body>
+</Card>
+
+  
+
+  </Col>
+
+  </Container>
+
+{/*This is westwood centre video ending */}
+
+</Row>
 
 
+<br/>
 
 
 

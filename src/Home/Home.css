@@ -15,9 +15,46 @@
 .videopart{
  
     margin-right: auto;
+    background-color: #27206B;
+    text-align: center;
+    color: #ffffff;
+ 
+    border: none;
+}
+
+.teacherpart1and2{
+    margin-right: auto;
+    text-align: center;
+    color: #000000;
+}
+
+.teachertitle{
+    font-weight: bold;
 }
 
 .videopart1{
  
+    margin-right: auto;
+    
+}
+
+.App1{
+    display: flex;
+margin-right: auto;
+margin-left: auto;
+justify-content: center;
+}
+
+.wordsvid{
     margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: auto;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: left;
+    color: #27206B;
 }
