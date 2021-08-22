@@ -1,0 +1,68 @@
+.grouppiccard{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardwordsgroupic{
+
+    justify-content: center;
+    text-align: center;
+    border: none;
+}
+
+.imagetext1{
+    text-decoration-line: underline;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.cardrightrobotoics{
+    background-color: #27206B;
+}
+
+.cardrightrobotoicstitle{
+    color: #ffffff;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.cardrightrobotoicscontent{
+    color: #ffffff;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.cardleftrobotoicstitle{
+    color: #ffffff;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.cardleftrobotoicscontent{
+    color: #ffffff;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.cardmiddlerobotoicstitle{
+    color: #000000;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.seniorbutton{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}

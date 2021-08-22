@@ -50,6 +50,9 @@ function About() {
 -Hakathon & After School Coding Club
 <br/>
 -Queens in Code
+
+<br/>
+-Youth Computing
 <br/>
 -ICT Internships
 <br/>
@@ -57,6 +60,8 @@ function About() {
 <br/>
 -Science Fairs (Regional and National)
      <br/>
+
+  
     </Card.Text>
 
   </Card.Body>

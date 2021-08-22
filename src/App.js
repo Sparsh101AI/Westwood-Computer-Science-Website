@@ -11,7 +11,7 @@ import Robotics from './Robotics/Robotics';
 import About from './About/About';
 import Footer from './Footer/Footer';
 import DigitalDesign from './DigitalDesign/DigitalDesign';
-
+import seniorRobotics from './Robotics/seniorRobotics';
 
 
 function App() {
@@ -28,6 +28,7 @@ function App() {
      <Route path ='/About' component={About}/>
      <Route path ='/ComputerScience' component={ComputerScience}/>
      <Route path ='/Robotics' component={Robotics}/>
+     <Route path ='/seniorRobotics' component={seniorRobotics}/>
      <Route path ='/DigitalDesign' component={DigitalDesign}/>
      <Route path ='/Awards' component={Awards}/>
 
