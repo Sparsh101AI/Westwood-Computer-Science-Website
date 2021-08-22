@@ -5,11 +5,13 @@ import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Button from 'react-bootstrap/Button'
-import Dropdown from 'react-bootstrap/Dropdown'
-import DropdownButton from 'react-bootstrap/DropdownButton'
 import Typical from 'react-typical';
-import { useHistory } from "react-router-dom";
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 
@@ -50,7 +52,11 @@ function bar() {
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="auto">
      
-    <Button className="button-color"   href="#">About</Button> 
+     
+     
+     <Button className="button-color"   href="/About">About</Button> 
+
+     
     <Button className="button-color" href="#">Computer Science</Button> 
     <Button className="button-color" href="#">Robotics</Button> 
     <Button className="button-color" href="#">Digital Design</Button> 
