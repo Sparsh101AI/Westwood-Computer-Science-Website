@@ -28,7 +28,7 @@ function bar() {
  {/*top navbar */}
  <Navbar bg="light" >
     <Container>
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="/">
         <img
           alt=""
           src="capture.png"
@@ -53,14 +53,14 @@ function bar() {
     <Nav className="auto">
      
      
-     
+   
      <Button className="button-color"   href="/About">About</Button> 
 
      
-    <Button className="button-color" href="#">Computer Science</Button> 
-    <Button className="button-color" href="#">Robotics</Button> 
-    <Button className="button-color" href="#">Digital Design</Button> 
-    <Button className="button-color" href="#">Awards and Achievements
+    <Button className="button-color" href="/ComputerScience">Computer Science</Button> 
+    <Button className="button-color" href="/Robotics">Robotics</Button> 
+    <Button className="button-color" href="/DigitalDesign">Digital Design</Button> 
+    <Button className="button-color" href="/Awards">Awards and Achievements
 </Button> 
 
     </Nav>
