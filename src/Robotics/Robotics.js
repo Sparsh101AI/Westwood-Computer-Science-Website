@@ -91,7 +91,6 @@ learning about areas rich with career opportunities spanning science, technology
        CAD T-shirt design, Sphero's, & VEX Robotics. The structure of the class had students working simultaneously 
       on each of these topics in stations so everyone will get a chance to try everything out! {' '}
       </Card.Text>
-      <Button variant="secondary" size="lg" href="/ComputerScience">Explore!</Button>
     </Card.Body>
     
   </Card>
@@ -116,7 +115,7 @@ Sr. Westwood Robotics will create opportunities for students to engage in planni
       
       
       </Card.Text>
-      <Button variant="secondary" size="lg" href="/seniorRobotics">Explore!</Button> 
+      <Button variant="secondary" size="lg" href="/seniorRobotics">Explore More!</Button> 
 
     </Card.Body>
   
