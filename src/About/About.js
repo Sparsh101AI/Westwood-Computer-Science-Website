@@ -63,7 +63,7 @@ function About() {
 </Card>
     </Col>
   </Row>
-  <br/>
+  
 
 <Row>
 
