@@ -1,0 +1,26 @@
+.wwimagelogo{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+border: none;
+
+}
+
+.infoabout{
+border: none;
+text-align: center;
+font-weight: bold;
+color: #27206B;
+}
+
+
+.infoabout1{
+    border: none;
+    text-align: left;
+   
+    }
+
+    .cardabout{
+        background-color: #CFCFCF;
+    }
+    
