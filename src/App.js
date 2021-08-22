@@ -6,7 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Home/Home';
 import Navbar from './Navbar/Navbar';
 import Awards from './Awards/Awards';
-import * as ROUTES from "./Routes";
 import About from './About/About';
 import Footer from './Footer/Footer';
 function App() {
@@ -19,10 +18,8 @@ function App() {
 
       <Router>
       
-      <Route exact path={ROUTES.Home} component={Home}/>
-     
-      <Route path={ROUTES.ABOUT} component={About} />
-
+     <Route exact path ='/' component={Home}/>
+     <Route path ='/About' component={About}/>
     </Router>
 
 
