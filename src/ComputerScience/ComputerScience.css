@@ -1,0 +1,59 @@
+.compsititle{
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.compscitext{
+    color: #ffffff;
+}
+
+.cardcomp{
+    background-color: #27206B;
+    border: none;
+}
+
+.option3{
+    margin-right: auto;
+    text-align: center;
+    color: #27206B;
+ font-weight: bold;
+    border: none;
+}
+
+
+
+.option2{
+    margin-right: auto;
+    text-align: center;
+    color: #27206B;
+ font-weight: bold;
+ text-decoration-line: underline;
+
+ font-size: xx-large;
+    border: none;
+}
+
+
+.option1{
+    margin-right: auto;
+    text-align: center;
+    color: #ffffff;
+    background-color: #27206B;
+ font-weight: bold;
+ text-decoration-line: underline;
+
+ font-size: xx-large;
+    border: none;
+}
+
+
+.option0{
+    margin-right: auto;
+    text-align: center;
+    color: #27206B;
+    border: none;
+}
