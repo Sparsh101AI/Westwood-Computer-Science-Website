@@ -4,9 +4,7 @@ import Row from 'react-bootstrap/Row'
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Carousel from 'react-bootstrap/Carousel'
-import Button from 'react-bootstrap/Button'
 import CardGroup from 'react-bootstrap/CardGroup'
-import ReactPlayer from 'react-player'
 
 function ComputerScience() {
     return (

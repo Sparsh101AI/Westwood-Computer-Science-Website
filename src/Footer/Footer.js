@@ -1,15 +1,9 @@
 import './Footer.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar,Nav} from 'react-bootstrap';
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Card from 'react-bootstrap/Card'
-import Col from 'react-bootstrap/Col'
-import CardGroup from 'react-bootstrap/CardGroup'
+
 import SocialFollow from "../SocialFollow";
 import "./styles.css";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import Image from 'react-bootstrap/Image'
 
 
 const FooterPagePro = () => {

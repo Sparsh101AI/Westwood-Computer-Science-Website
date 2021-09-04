@@ -3,7 +3,6 @@ import Row from 'react-bootstrap/Row'
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
-import Image from 'react-bootstrap/Image'
 import ReactPlayer from 'react-player'
 import CardGroup from 'react-bootstrap/CardGroup'
 
