@@ -73,7 +73,7 @@ function About() {
 
 <Col >
    
-  <Card className="videopart1i" className="text-center">
+  <Card className="videopart1i" >
   <Card.Body>
     <Card.Title className="textcenter">What We Do Here At The Innovation Center!</Card.Title>
     <Card.Text>

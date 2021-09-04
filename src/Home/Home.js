@@ -39,7 +39,7 @@ function Home() {
 <Container>
   <Col  >
    
-  <Card className="videopart1ii" className="text-center">
+  <Card className="videopart1ii" >
   <Card.Body>
     <Card.Title className="textcenter">Check Out Our New Innovation Center!</Card.Title>
     <Card.Text>
