@@ -48,9 +48,7 @@ function bar() {
      
      
    
-     <Button className="button-color"   href="/About">About</Button> 
-
-     
+    <Button className="button-color"   href="/About">About</Button>      
     <Button className="button-color" href="/ComputerScience">Computer Science</Button> 
     <Button className="button-color" href="/Robotics">Robotics</Button> 
     <Button className="button-color" href="/DigitalDesign">Digital Design</Button> 
