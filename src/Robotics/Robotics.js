@@ -135,9 +135,9 @@ Sr. Westwood Robotics will create opportunities for students to engage in planni
 
   {/*This is westwood robotics video */}
   <Container>
-  <Col className="videopart1" >
+  <Col  >
    
-  <Card className="videopart1" className="text-center">
+  <Card className="videopart1iii" className="text-center">
   <Card.Body>
     <Card.Title className="textcenter">Check Out Westwood Robotics!</Card.Title>
     <Card.Text>

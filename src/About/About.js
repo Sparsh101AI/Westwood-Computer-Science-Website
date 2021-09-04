@@ -71,9 +71,9 @@ function About() {
 
 <Row>
 
-<Col className="videopart1" >
+<Col >
    
-  <Card className="videopart1" className="text-center">
+  <Card className="videopart1i" className="text-center">
   <Card.Body>
     <Card.Title className="textcenter">What We Do Here At The Innovation Center!</Card.Title>
     <Card.Text>

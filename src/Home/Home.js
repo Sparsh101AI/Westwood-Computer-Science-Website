@@ -37,9 +37,9 @@ function Home() {
 <Row>
   {/*This is westwood centre video */}
 <Container>
-  <Col className="videopart1" >
+  <Col  >
    
-  <Card className="videopart1" className="text-center">
+  <Card className="videopart1ii" className="text-center">
   <Card.Body>
     <Card.Title className="textcenter">Check Out Our New Innovation Center!</Card.Title>
     <Card.Text>
