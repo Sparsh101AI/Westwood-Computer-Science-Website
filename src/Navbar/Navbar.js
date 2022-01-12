@@ -52,7 +52,7 @@ function bar() {
     <Button className="button-color" href="/ComputerScience">Computer Science</Button> 
     <Button className="button-color" href="/Robotics">Robotics</Button> 
     <Button className="button-color" href="/DigitalDesign">Digital Design</Button> 
-    <Button className="button-color" href="/Awards">Awards and Achievements
+    <Button className="button-color" href="/Awards">Achievements
 </Button> 
 
     </Nav>
